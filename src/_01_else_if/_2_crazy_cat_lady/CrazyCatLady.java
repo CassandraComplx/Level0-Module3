@@ -14,7 +14,7 @@ public class CrazyCatLady {
 		if( cats >= 3 ) {
 			JOptionPane.showMessageDialog(null, "you are a crazy cat lady ^. .^");
 		} else if ( cats <3 && cats >0 ) {
-			playVideo("");
+			JOptionPane.showMessageDialog(null, "you are a cat lover! <3");
 		}
 		// 3. If they have 3 or more cats, tell them they are a crazy cat lady
 		// 4. If they have less than 3 cats AND more than 0 cats, call the method below to show them a cat video
